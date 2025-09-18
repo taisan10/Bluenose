@@ -36,7 +36,7 @@ export default function Footer() {
               href="https://www.instagram.com/bluenose_marketing/"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-white p-2 rounded-md hover:bg-pink-600 transition"
+              className="border border-white bg-white p-2 rounded-md hover:bg-pink-600 transition"
             >
               <FaInstagram className="text-pink-500 text-xl" />
             </a>
@@ -82,7 +82,7 @@ export default function Footer() {
             <li className="flex items-center space-x-2">
               <FaEnvelope className="text-yellow-400" />
               <a
-                href="mailto:contact@cheesecakedigital.in"
+                href="mailto:sales@bluenosemarketing.com"
                 className="hover:text-yellow-400 transition"
               >               
                  sales@bluenosemarketing.com

@@ -150,52 +150,52 @@ const ReviewSection = () => {
     );
 };
 
-const  CallToAction =()=>{
-  return (
-    <section className="bg-yellow-400 py-10 px-6">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+// const  CallToAction =()=>{
+//   return (
+//     <section className="bg-yellow-400 py-10 px-6">
+//       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
         
-        {/* Left - Image of people */}
-        <div className="flex-shrink-0">
-          <img
-            src={people}
-            alt="People"
-            className="w-56 md:w-72 object-contain"
-          />
-        </div>
+//         {/* Left - Image of people */}
+//         <div className="flex-shrink-0">
+//           <img
+//             src={people}
+//             alt="People"
+//             className="w-56 md:w-72 object-contain"
+//           />
+//         </div>
 
-        {/* Middle - Text */}
-        <div className="text-center md:text-left flex-1">
-          <h2 className="text-2xl md:text-3xl font-bold text-black">
-            Still confused? Don't overthink it
-          </h2>
-        </div>
+//         {/* Middle - Text */}
+//         <div className="text-center md:text-left flex-1">
+//           <h2 className="text-2xl md:text-3xl font-bold text-black">
+//             Still confused? Don't overthink it
+//           </h2>
+//         </div>
 
-        {/* Right - Arrow + Button */}
-        <div className="flex items-center gap-4">
-          <img
-            src={Arrow}
-            alt="Arrow"
-            className="w-16 md:w-20 object-contain"
-          />
-          <a
-            href="#contact" 
-            className="bg-black text-white font-bold px-6 py-3 rounded-md hover:bg-gray-800 transition"
-          >
-            LET'S CONNECT
-          </a>
-        </div>
-      </div>
-    </section>
-  );
-}
+//         {/* Right - Arrow + Button */}
+//         <div className="flex items-center gap-4">
+//           <img
+//             src={Arrow}
+//             alt="Arrow"
+//             className="w-16 md:w-20 object-contain"
+//           />
+//           <a
+//             href="#contact" 
+//             className="bg-black text-white font-bold px-6 py-3 rounded-md hover:bg-gray-800 transition"
+//           >
+//             LET'S CONNECT
+//           </a>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
 
 
 export default () => (
   <>
     <StatsSection />
     <ReviewSection />
-    <CallToAction />
+    {/* <CallToAction /> */}
   </>
 );
 
