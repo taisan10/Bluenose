@@ -3,7 +3,7 @@ import items from "../assets/what we do/wedo";
 
 const WhatWeDo = () => {
   return (
-    <section className="bg-black text-white py-16 px-6">
+    <section id="whatwedo" className="bg-black text-white py-16 px-6">
       {/* Title */}
       <motion.div
         initial={{ opacity: 0, y: -50 }}
