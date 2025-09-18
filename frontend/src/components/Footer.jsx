@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex space-x-4">
             <a
-              href="https://wa.me/919974543555"
+              href="https://wa.me/19027189007"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-white bg-white p-2 rounded-md hover:bg-green-600 transition"
@@ -33,7 +33,7 @@ export default function Footer() {
               <FaWhatsapp className="text-green-500 text-xl" />
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/bluenose_marketing/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-white p-2 rounded-md hover:bg-pink-600 transition"
@@ -84,54 +84,52 @@ export default function Footer() {
               <a
                 href="mailto:contact@cheesecakedigital.in"
                 className="hover:text-yellow-400 transition"
-              >
-                contact@cheesecakedigital.in
+              >               
+                 sales@bluenosemarketing.com
               </a>
             </li>
 
             <li className="flex items-center space-x-2">
               <FaPhone className="text-yellow-400" />
               <a
-                href="tel:+19027189007"
+                href="https://wa.me/19027189007"
                 className="hover:text-yellow-400 transition"
               >
-                +91 99745 43555
+             +1 (902) 718-9007
               </a>
             </li>
 
             <li className="flex items-center space-x-2">
               <FaGlobe className="text-yellow-400" />
               <a
-                href="https://cheesecakedigital.in"
+                href="https://www.bluenosemarketing.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-yellow-400 transition"
               >
-                cheesecakedigital.in
+              bluenosemarketing.com
               </a>
             </li>
             <li className="flex items-start space-x-2">
               <FaMapMarkerAlt className="text-yellow-400 mt-1" />
               <a
-                href="https://www.google.com/maps?q=610,611+Homeland+city,+Surat+Gujarat-395007"
+                href="https://www.google.com/maps/place/5,+19+Alma+Crescent,+Halifax,+NS+B3N+2C4,+Canada/@44.6594793,-63.6325108,619m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4b5a21a8365c5ea1:0x2348b261468a7e12!8m2!3d44.6594793!4d-63.6325108!16s%2Fg%2F11bw3yfxpp!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDkxNS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-yellow-400 transition"
               >
-                610,611 Homeland city, Surat <br /> Gujarat-395007
+                19 Alma Crescent, Halifax, <br /> NS B3N 2C4
               </a>
             </li>
             <li className="flex items-start space-x-2">
               <FaMapMarkerAlt className="text-yellow-400 mt-1" />
               <a
-                href="https://www.google.com/maps?q=STELLAR,+Sindhu+Bhavan,+Sindhu+Bhavan+Marg,+Friends+Colony,+Bodakdev,+Ahmedabad,+Gujarat+380054"
+                href="https://www.google.com/maps/place/5,+19+Alma+Crescent,+Halifax,+NS+B3N+2C4,+Canada/@44.6594793,-63.6325108,619m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4b5a21a8365c5ea1:0x2348b261468a7e12!8m2!3d44.6594793!4d-63.6325108!16s%2Fg%2F11bw3yfxpp!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDkxNS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-yellow-400 transition"
               >
-                STELLAR, Sindhu Bhavan, Sindhu Bhavan Marg, Friends Colony,{" "}
-                <br />
-                Bodakdev, Ahmedabad, Gujarat 380054
+                STELLAR
               </a>
             </li>
           </ul>
