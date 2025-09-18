@@ -7,6 +7,7 @@ import Process from "../components/Process";
 import WhatWeDo from "../components/WhatWeDo";
 import StatsSection from "../components/Stats";
 import Contact from "../components/contact/Contact";
+import Footer from "../components/Footer";
 
 function LandingPage() {
   return (
@@ -22,6 +23,7 @@ function LandingPage() {
       <WhatWeDo />
       <StatsSection/>
       <Contact />
+      <Footer />
     </div>
   );
 }
