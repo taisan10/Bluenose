@@ -6,7 +6,7 @@ import OurServices from "../components/OurServices";
 import Process from "../components/Process";
 import WhatWeDo from "../components/WhatWeDo";
 import StatsSection from "../components/Stats";
-import Contact from "../components/contact/Contact";
+// import Contact from "../components/contact/Contact";
 
 function LandingPage() {
   return (
@@ -21,7 +21,7 @@ function LandingPage() {
       <Process />
       <WhatWeDo />
       <StatsSection/>
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }
