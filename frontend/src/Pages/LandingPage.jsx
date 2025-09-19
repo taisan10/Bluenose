@@ -6,7 +6,7 @@ import OurServices from "../components/OurServices";
 import Process from "../components/Process";
 import WhatWeDo from "../components/WhatWeDo";
 import StatsSection from "../components/Stats";
-// import Contact from "../components/contact/Contact";
+import Contact from "../components/contact/Contact";
 import Footer from "../components/Footer";
 
 function LandingPage() {
@@ -22,7 +22,7 @@ function LandingPage() {
       <Process />
       <WhatWeDo />
       <StatsSection/>
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </div>
   );

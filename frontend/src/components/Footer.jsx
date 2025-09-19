@@ -16,9 +16,9 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-start">
           <div className="flex items-center mb-6">
             {/* Replace with your logo image if available */}
-            <img src={logo} alt="Cheesecake Digital" className="h-12 mr-2" />
-            <span className="text-2xl font-bold leading-tight">
-              Bluenose <br /> digital
+            <img src={logo} alt="Bluenose Digital" className="h-12 mr-2" />
+            <span className="text-2xl font-bold ">
+              Bluenose digital
             </span>
           </div>
 
@@ -51,7 +51,6 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2">
             <li
-              id="home"
               className="flex items-center space-x-2 hover:text-yellow-400 cursor-pointer"
             >
               <span>»</span> 
