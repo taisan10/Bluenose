@@ -388,7 +388,7 @@ export default () => (
     <StatsSection />
     <ReviewSection />
     <CallToAction />
-    {/* <Contact/> */}
+    <Contact/>
   </>
 );
 
