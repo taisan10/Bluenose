@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
 import stats from "../assets/stats/stats";
 // import reviews from "../assets/stats/review";
-import Arrow from "../assets/arrow.png"
-import people from "../assets/man.png"
+import Arrow from "../assets/arrow.png";
+import people from "../assets/man.png";
 import { useState } from "react";
-
-
 
 const StatsSection = () => {
   return (
@@ -15,7 +13,7 @@ const StatsSection = () => {
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
-        viewport={{  amount: 0.5 }}
+        viewport={{ amount: 0.5 }}
         className="text-center text-3xl md:text-5xl font-extrabold text-gray-900 mb-16"
       >
         Creative Digital Marketing in Halifax
@@ -36,11 +34,9 @@ const StatsSection = () => {
             <div className="absolute top-0 left-0 h-full w-1 bg-yellow-400 rounded-l-xl" />
 
             <div className="relative z-10">
-              {item.number ? (
-                <h3 className="text-4xl font-bold text-gray-900 mb-2">{item.number}</h3>
-              ) : (
-                <img src={item.img} alt={item.label} className="w-18 h-15 mb-2 mx-auto object-contain" />
-              )}
+              <h3 className="text-4xl font-bold text-gray-900 mb-2">
+                {item.number}
+              </h3>
               <p className="text-md font-medium text-gray-800">{item.label}</p>
             </div>
           </motion.div>
@@ -50,7 +46,7 @@ const StatsSection = () => {
   );
 };
 
-// ReviewSection 
+// ReviewSection
 const ReviewSection = () => {
   return (
     <section className=" bg-black px-6 py-16 max-w-7xl mx-auto rounded-4xl text-white">
@@ -64,24 +60,16 @@ const ReviewSection = () => {
             viewport={{ once: false, amount: 0.5 }}
             className="text-3xl md:text-4xl font-extrabold mb-4"
           >
-            WHAT PEOPLE SAY ABOUT US
+           Words From Our Clients
           </motion.h2>
- </div>
-  </div>
- <div className="flex flex-col md:flex-col gap-2  md:gap-18" >
-          {/* Star Rating and Reviews Count */}
-          <div className="flex items-center mb-8 flex-start">
-            <span className="text-yellow-400 text-xl">★★★★★</span>
-            <p className="ml-2 text-xl font-medium">15k+ (Reviews)</p>
-          </div>
-       
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-col gap-2  md:gap-18">
+
 
         {/* Right Side - Review Cards */}
-     
-
-
- <div className="w-full sm:w flex flex-raw gap-8 mt-8 ">
-         {/* Review 1 */}
+        <div className="w-full sm:w flex flex-raw gap-8 mt-8 ">
+          {/* Review 1 */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -92,68 +80,70 @@ const ReviewSection = () => {
             <div className="flex justify-center mb-4">
               <span className="text-orange-500">★★★★★</span>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Siddharth Nair</h3>
+            <h3 className="text-xl font-semibold mb-2">Besharam Bar and Grill</h3>
             <p className="text-md font-medium text-gray-600">
-              "Supercreative guys these are, always fun to work with them"
+              Bluenose Marketing helped us transform our online presence. Their strategies are data-driven yet creative, and we saw real results within weeks.
             </p>
           </motion.div>
 
-          {/* Review 2 */}
+          {/* Review 2
+          // <motion.div
+          //   initial={{ opacity: 0, y: 50 }}
+          //   whileInView={{ opacity: 1, y: 0 }}
+          //   transition={{ delay: 0.2, duration: 0.6 }}
+          //   viewport={{ once: false }}
+          //   className="bg-white text-black p-8 rounded-xl shadow-lg flex flex-col items-center text-center"
+          // >
+          //   <div className="flex justify-center mb-4">
+          //     <span className="text-orange-500">★★★★★</span>
+          //   </div>
+          //   <h3 className="text-xl font-semibold mb-2">Neha Raghavan</h3>
+          //   <p className="text-md font-medium text-gray-600">
+          //    Their time management is impressive. Deadlines are always met, and they’re flexible enough to accommodate last-minute changes.
+          //   </p>
+          // </motion.div> */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            viewport={{ once: false}}
+            viewport={{ once: false }}
             className="bg-white text-black p-8 rounded-xl shadow-lg flex flex-col items-center text-center"
           >
             <div className="flex justify-center mb-4">
               <span className="text-orange-500">★★★★★</span>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Neha Raghavan</h3>
+            <h3 className="text-xl font-semibold mb-2">Beaver Bank Station</h3>
             <p className="text-md font-medium text-gray-600">
-              "Bluenose Digital is proof that marketing doesn't have to be boring."
+              Their time management is impressive. Deadlines are always met, and they’re flexible enough to accommodate last-minute changes.
             </p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
-            viewport={{ once: false}}
+            viewport={{ once: false }}
             className="bg-white text-black p-8 rounded-xl shadow-lg flex flex-col items-center text-center"
           >
             <div className="flex justify-center mb-4">
               <span className="text-orange-500">★★★★★</span>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Neha Raghavan</h3>
+            <h3 className="text-xl font-semibold mb-2">Triveeni Events</h3>
             <p className="text-md font-medium text-gray-600">
-              "Bluenose Digital is proof that marketing doesn't have to be boring."
-            </p>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2, duration: 0.6 }}
-            viewport={{ once: false}}
-            className="bg-white text-black p-8 rounded-xl shadow-lg flex flex-col items-center text-center"
-          >
-            <div className="flex justify-center mb-4">
-              <span className="text-orange-500">★★★★★</span>
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Neha Raghavan</h3>
-            <p className="text-md font-medium text-gray-600">
-              "Bluenose Digital is proof that marketing doesn't have to be boring."
+              The team is highly professional and understands brand goals perfectly. They managed our campaigns seamlessly and delivered beyond expectations.
             </p>
           </motion.div>
         </div>
       </div>
     </section>
-    );
+  );
 };
 
-
-
- function Contact({ index = 0 }) {
-  const [formData, setFormData] = useState({ brand: "", phone: "", location: "" });
+function Contact({ index = 0 }) {
+  const [formData, setFormData] = useState({
+    brand: "",
+    phone: "",
+    location: "",
+  });
   const [errors, setErrors] = useState({});
   const [touched, setTouched] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -165,7 +155,8 @@ const ReviewSection = () => {
     }
     if (name === "phone") {
       if (!value) return "Phone number is required.";
-      if (!/^\d{10,}$/.test(value)) return "Phone number must be at least 10 digits (digits only).";
+      if (!/^\d{10,}$/.test(value))
+        return "Phone number must be at least 10 digits (digits only).";
       return "";
     }
     if (name === "location") {
@@ -196,46 +187,45 @@ const ReviewSection = () => {
     const err = validateField(name, formData[name]);
     setErrors((p) => ({ ...p, [name]: err }));
   };
-const handleSubmit = (e) => {
-  e.preventDefault();
-  setSubmitted(true);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSubmitted(true);
 
-  const newErrors = {
-    brand: validateField("brand", formData.brand),
-    phone: validateField("phone", formData.phone),
-    location: validateField("location", formData.location),
+    const newErrors = {
+      brand: validateField("brand", formData.brand),
+      phone: validateField("phone", formData.phone),
+      location: validateField("location", formData.location),
+    };
+    setErrors(newErrors);
+
+    const hasError = Object.values(newErrors).some(Boolean);
+
+    if (!hasError) {
+      const whatsappNumber = "19027189007";
+      const message = `Hello I am ${formData.brand} My phone number is ${formData.phone} My location is ${formData.location}`;
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+      console.log("Encoded Message:", encodedMessage);
+      console.log("Final URL:", whatsappUrl);
+
+      window.location.href = whatsappUrl;
+
+      // ✅ Reset form
+      setFormData({ brand: "", phone: "", location: "" });
+      setTouched({});
+      setSubmitted(false);
+      setErrors({});
+    }
   };
-  setErrors(newErrors);
 
-  const hasError = Object.values(newErrors).some(Boolean);
-
-  if (!hasError) {
-
-    const whatsappNumber = "19027189007";
-const message = `Hello I am ${formData.brand} My phone number is ${formData.phone} My location is ${formData.location}`;
-const encodedMessage = encodeURIComponent(message);
-const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-
-console.log("Encoded Message:", encodedMessage);
-console.log("Final URL:", whatsappUrl);
-
-window.location.href = whatsappUrl;
-
-    // ✅ Reset form
-    setFormData({ brand: "", phone: "", location: "" });
-    setTouched({});
-    setSubmitted(false);
-    setErrors({});
-  }
-};
-
-
-  const showError = (name) => Boolean(errors[name] && (touched[name] || submitted));
+  const showError = (name) =>
+    Boolean(errors[name] && (touched[name] || submitted));
 
   return (
     <motion.section
       id="contact"
-      initial={{ opacity: 0, y: 80  }}
+      initial={{ opacity: 0, y: 80 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.9, delay: index * 0.25 }}
       viewport={{ once: false, amount: 0.3 }}
@@ -244,7 +234,7 @@ window.location.href = whatsappUrl;
       {/* Outer wrapper: 10% left/right margins -> inner area = 80% */}
       <div className="w-full">
         <div
-          className="mx-[10vw] flex flex-col md:flex-row justify-between items-start  md:items-center pl-16"
+          className="mx-[5vw] flex flex-col md:flex-row justify-between items-start  md:items-center "
           style={{ minHeight: "50vh" }} // adjust vertical centering area
         >
           {/* LEFT: heading area (40% viewport on md+) */}
@@ -255,11 +245,17 @@ window.location.href = whatsappUrl;
           </div>
 
           {/* RIGHT: form area (40% viewport on md+) */}
-          <form onSubmit={handleSubmit} className="w-full md:w-[40vw] mt-8 md:mt-0">
+          <form
+            onSubmit={handleSubmit}
+            className="w-full md:w-[40vw] mt-8 md:mt-0"
+          >
             {/* Brand + Phone row */}
             <div className="grid sm:grid-cols-2 md:grid-cols-2  gap-4 py-14 ">
               <div>
-                <label htmlFor="brand" className="block mb-2 text-sm font-medium">
+                <label
+                  htmlFor="brand"
+                  className="block mb-2 text-sm font-medium"
+                >
                   Name of the brand:
                 </label>
                 <input
@@ -274,11 +270,16 @@ window.location.href = whatsappUrl;
                   }`}
                   aria-invalid={Boolean(errors.brand)}
                 />
-                {showError("brand") && <p className="text-red-500 text-sm mt-1">{errors.brand}</p>}
+                {showError("brand") && (
+                  <p className="text-red-500 text-sm mt-1">{errors.brand}</p>
+                )}
               </div>
 
               <div>
-                <label htmlFor="phone" className="block mb-2 text-sm font-medium">
+                <label
+                  htmlFor="phone"
+                  className="block mb-2 text-sm font-medium"
+                >
                   Phone Number:
                 </label>
                 <input
@@ -294,13 +295,18 @@ window.location.href = whatsappUrl;
                   }`}
                   aria-invalid={Boolean(errors.phone)}
                 />
-                {showError("phone") && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
+                {showError("phone") && (
+                  <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
+                )}
               </div>
             </div>
 
             {/* Location */}
             <div className="mt-4">
-              <label htmlFor="location" className="block mb-2 text-sm font-medium">
+              <label
+                htmlFor="location"
+                className="block mb-2 text-sm font-medium"
+              >
                 Location:
               </label>
               <textarea
@@ -312,11 +318,15 @@ window.location.href = whatsappUrl;
                 onBlur={handleBlur}
                 placeholder="Location"
                 className={`w-full p-3 rounded-md bg-white text-black border ${
-                  showError("location") ? "border-red-500" : "border-transparent"
+                  showError("location")
+                    ? "border-red-500"
+                    : "border-transparent"
                 }`}
                 aria-invalid={Boolean(errors.location)}
               />
-              {showError("location") && <p className="text-red-500 text-sm mt-1">{errors.location}</p>}
+              {showError("location") && (
+                <p className="text-red-500 text-sm mt-1">{errors.location}</p>
+              )}
             </div>
 
             {/* Submit */}
@@ -334,12 +344,11 @@ window.location.href = whatsappUrl;
     </motion.section>
   );
 }
-  
-const  CallToAction =()=>{
+
+const CallToAction = () => {
   return (
     <section className="bg-yellow-400 py-10 px-16">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-        
         {/* Left - Image of people */}
         <div className="flex-shrink-1">
           <img
@@ -363,36 +372,26 @@ const  CallToAction =()=>{
             alt="Arrow"
             className="w-16  md:w-20 object-contain"
           />
-        <a
-  href="#contact"
-  className="relative overflow-hidden group font-bold px-6 py-3 rounded-md text-white bg-black transition-all duration-500"
->
-  <span className="relative z-10">LET'S CONNECT</span>
+          <a
+            href="#contact"
+            className="relative overflow-hidden group font-bold px-6 py-3 rounded-md text-white bg-black transition-all duration-500"
+          >
+            <span className="relative z-10">LET'S CONNECT</span>
 
-  {/* Fill effect */}
- <span
-  className="absolute inset-0 bg-sky-400 transform -skew-x-20 translate-x-full group-hover:translate-x-0 transition-all duration-700 ease-out md:-skew-x-12"
-></span>
-
-</a>
+            {/* Fill effect */}
+            <span className="absolute inset-0 bg-sky-400 transform -skew-x-20 translate-x-full group-hover:translate-x-0 transition-all duration-700 ease-out md:-skew-x-12"></span>
+          </a>
         </div>
       </div>
     </section>
   );
-}
-
-
+};
 
 export default () => (
   <>
     <StatsSection />
     <ReviewSection />
     <CallToAction />
-    <Contact/>
+    <Contact />
   </>
 );
-
-
-
-
-

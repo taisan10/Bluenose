@@ -12,7 +12,7 @@ const reviews = [
   {
     id: 3,
     name: "Rahul Mehta",
-    text: "Amazing results, their strategies really boosted our brand presence.",
+    text: "The team is highly professional and understands brand goals perfectly. They managed our campaigns seamlessly and delivered beyond expectations.",
   },
   {
     id: 4,

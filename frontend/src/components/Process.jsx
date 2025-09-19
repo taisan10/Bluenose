@@ -28,11 +28,11 @@ export default function Process() {
             viewport={{ once: false, amount: 0.3 }} 
           >
             {/* Image */}
-            <div className="flex-1 flex justify-center">
+            <div className=" w-65 h-25 flex-1 flex justify-center">
               <img
                 src={step.img}
                 alt={step.title}
-                className="h-36 md:h-44 object-contain rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
+                className="object-contain rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
               />
             </div>
 

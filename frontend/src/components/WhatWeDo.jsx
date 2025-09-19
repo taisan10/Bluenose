@@ -13,7 +13,7 @@ const WhatWeDo = () => {
         className="text-center mb-12"
       >
         <h2 className="text-3xl md:text-4xl font-extrabold text-yellow-400">
-          THINK OF US AS YOUR BRAND'S BEST FRIEND WHO
+          Think of Us as Your Brand’s Best Friend Who…
         </h2>
       </motion.div>
 
@@ -36,7 +36,7 @@ const WhatWeDo = () => {
             <img
               src={item.img}
               alt={item.text}
-              className="w-20 h-20 mb-4 object-contain"
+              className="w-20 h-20  mb-4 object-contain"
             />
             <p className="text-lg font-medium">{item.text}</p>
           </motion.div>

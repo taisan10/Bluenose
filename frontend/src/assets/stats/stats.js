@@ -1,17 +1,13 @@
-import step1 from "./data/1-removebg-preview.png";
-import step2 from "./data/9-removebg-preview.png";
-import step3 from "./data/5.png";
-import step4 from "./data/4.jpeg";
 
 const stats = [
-  { id: 1, number: "80+", label: "INFLUENCER MARKETING CAMPAIGNS" },
-  { id: 2, number: "100+", label: "CGI VIDEO" },
-  { id: 3, number: "3000+", label: "UGC VIDEO" },
-  { id: 4, number: "400+", label: "DIGITAL ADS" },
-  { id: 5, img: step1, label: "100+ Premium Tools" },
-  { id: 6, img: step2, label: "Global Presence" },
-  { id: 7, img: step3, label: "8+ years experience" },
-  { id: 8, img: step4, label: "Experienced Team" },
+  { id: 1, number: "80+", label: "Influencer Marketing Campaigns" },
+  { id: 2, number: "100+", label: "Computer-Generated Imagery (CGI) Videos" },
+  { id: 3, number: "200+", label: "User-Generated Content (UGC) Videos" },
+  { id: 4, number: "20+", label: "Industry Niches Covered" },
+  { id: 5, number: "1M+", label: " Engagements Delivered" },
+  { id: 6, number: "95%", label: "Client Satisfaction Rate" },
+  { id: 7, number: "10M+", label: " Audience Reach" },
+  { id: 8, number: "24/7", label: "Client Support" },
 ];
 
 export default stats;

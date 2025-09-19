@@ -2,6 +2,8 @@ import logo from "../assets/logo 3.png";
 import {
   FaWhatsapp,
   FaInstagram,
+  FaLinkedin,
+  FaTiktok,
   FaEnvelope,
   FaPhone,
   FaGlobe,
@@ -16,10 +18,11 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-start">
           <div className="flex items-center mb-6">
             {/* Replace with your logo image if available */}
-            <img src={logo} alt="Bluenose Digital" className="h-12 mr-2" />
+          <a href="https://www.bluenosemarketing.com/">
             <span className="text-2xl font-bold ">
-              Bluenose digital
+            Bluenose Digital Marketing
             </span>
+            </a>
           </div>
 
           {/* Social Icons */}
@@ -28,7 +31,7 @@ export default function Footer() {
               href="https://wa.me/19027189007"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-white bg-white p-2 rounded-md hover:bg-green-600 transition"
+              className="border border-white bg-white p-2 rounded-md hover:bg-green-200 transition"
             >
               <FaWhatsapp className="text-green-500 text-xl" />
             </a>
@@ -36,9 +39,25 @@ export default function Footer() {
               href="https://www.instagram.com/bluenose_marketing/"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-white bg-white p-2 rounded-md hover:bg-pink-600 transition"
+              className="border border-white bg-white p-2 rounded-md hover:bg-pink-300 transition"
             >
               <FaInstagram className="text-pink-500 text-xl" />
+            </a>
+            <a
+              href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fbluenose-marketing-digital-marketing-agency%2Fabout%2F%3FviewAsMember%3Dtrue"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-white bg-white p-2 rounded-md hover:bg-blue-200 transition"
+            >
+              <FaLinkedin className="text-blue-500 text-xl" />
+            </a>
+            <a
+              href="https://www.instagram.com/bluenose_marketing/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-white bg-white p-2 rounded-md transition"
+            >
+              <FaTiktok className="text-pink-600 text-xl" />
             </a>
           </div>
         </div>

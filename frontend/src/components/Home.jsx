@@ -35,17 +35,17 @@ export default function Home() {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Welcome to <span className="text-yellow-400">Bluenose digital Marketing</span>
+        <h1 className="text-2xl md:text-4xl font-bold mb-6">
+          <span className="text-yellow-400">Transform Your Online Presence with Bluenose Digital Marketing</span>
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mb-8">
-          Creative Strategy • Branding • Digital Growth
+          {/* Creative Strategy • Branding • Digital Growth */}
         </p>
 
         {/* Connect Button */}
         <a
           href="#contact"
-          className="bg-yellow-400 text-black px-6 py-3 font-bold rounded-md hover:bg-yellow-500 transition"
+          className="bg-yellow-400 my-2  text-black px-6 py-3 font-bold rounded-md hover:bg-yellow-500 transition"
         >
           LET’S CONNECT
         </a>

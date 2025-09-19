@@ -8,8 +8,8 @@ export default function Brands() {
   return (
     <section id="brands"className="bg-white py-12">
       {/* Heading */}
-      <h2 className="text-center text-2xl md:text-4xl font-bold text-sky-800 mb-10">
-        OUR FOUNDER&apos;S HAVE WORKED WITH
+      <h2 className="text-center text-xl md:text-4xl font-bold text-sky-800 mb-10">
+        Associated With Leading Names
       </h2>
 
       {/* Slider container */}
@@ -20,7 +20,7 @@ export default function Brands() {
               key={index}
               src={logo}
               alt={`brand-${index}`}
-              className="h-35 md:h-20 object-contain mx-[25px]"
+              className="h-25 md:h-20 object-contain mx-[25px]"
             />
           ))}
         </div>

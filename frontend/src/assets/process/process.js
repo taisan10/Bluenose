@@ -1,31 +1,31 @@
-import step1 from "./data/1-removebg-preview.png";
-import step2 from "./data/9-removebg-preview.png";
-import step3 from "./data/5.png";
-import step4 from "./data/4.jpeg";
+import step1 from "./data/11.png";
+import step2 from "./data/23.png";
+import step3 from "./data/32.png";
+import step4 from "./data/42.png";
 
 const steps = [
   {
     id: 1,
-    title: "The Brand Therapy Session",
-    desc: "You talk, we listen. We ask a few smart questions to understand your brand's vibe, goals, and what's been holding you back.",
+    title: "The Brand Discovery",
+    desc: "We listen closely, ask the right questions, and uncover the essence of your brand- its vision, goals, and the challenges standing in the way.",
     img: step1,
   },
   {
     id: 2,
-    title: "The Secret Recipe",
-    desc: "We cook up a strategy—one part creativity, one part research, and a pinch of 'why didn’t I think of that'.",
+    title: "The Strategy Blueprint",
+    desc: "We design a well-balanced plan, anchored in research, fueled by creativity, and sharpened with insights that make you think, “This is exactly what we needed.",
     img: step2,
   },
   {
     id: 3,
-    title: "The Execution",
-    desc: "Cameras roll, edits happen, and content takes shape. The kind of content people actually want to watch.",
+    title: "The Creative Execution",
+    desc: "From scripting to production and editing, ideas turn into impactful content, crafted to connect, engage, and inspire action.",
     img: step3,
   },
   {
     id: 4,
-    title: "The 'Oh, This Works' Moment",
-    desc: "The content goes live. Your audience engages. The numbers start moving. We track what’s working and fine-tune as needed.",
+    title: "The Impact Phase",
+    desc: "Your content goes live. The audience responds. Results start showing. We analyze, optimize, and keep refining to ensure growth  that  lasts.",
     img: step4,
   },
 ];
