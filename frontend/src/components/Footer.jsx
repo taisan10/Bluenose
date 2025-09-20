@@ -90,7 +90,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Right: Contact Us */}
         <div>
           <h3 className="text-lg font-bold mb-4 flex items-center">
             Contact Us
